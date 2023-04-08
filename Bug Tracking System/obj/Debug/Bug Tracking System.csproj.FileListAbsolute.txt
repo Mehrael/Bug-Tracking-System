@@ -1,0 +1,11 @@
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\bin\Debug\Bug Tracking System.exe.config
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\bin\Debug\Bug Tracking System.exe
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\bin\Debug\Bug Tracking System.pdb
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug Tracking System.csproj.AssemblyReference.cache
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug Tracking System.csproj.SuggestedBindingRedirects.cache
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug_Tracking_System.Properties.Resources.resources
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug Tracking System.csproj.GenerateResource.cache
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug Tracking System.csproj.CoreCompileInputs.cache
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug Tracking System.exe
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug Tracking System.pdb
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug_Tracking_System.Form1.resources
