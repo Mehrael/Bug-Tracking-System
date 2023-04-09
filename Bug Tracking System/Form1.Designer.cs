@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.navbar_panel = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.add_bug_btn = new System.Windows.Forms.Button();
+            this.add_bug_report_btn = new System.Windows.Forms.Button();
+            this.view_bugs_btn = new System.Windows.Forms.Button();
+            this.add_project_btn = new System.Windows.Forms.Button();
+            this.add_user_btn = new System.Windows.Forms.Button();
+            this.view_users_btn = new System.Windows.Forms.Button();
+            this.v = new System.Windows.Forms.Button();
+            this.view_project_btn = new System.Windows.Forms.Button();
+            this.change_password_btn = new System.Windows.Forms.Button();
             this.navbar_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,16 +56,6 @@
             this.navbar_panel.Size = new System.Drawing.Size(1746, 74);
             this.navbar_panel.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(18, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(108, 47);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -76,135 +66,153 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Bug Tracking System";
             // 
-            // button1
+            // pictureBox1
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(138, 145);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(227, 146);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Add Bugs";
-            this.button1.UseVisualStyleBackColor = true;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(18, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(108, 47);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // add_bug_btn
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button2.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(138, 376);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(227, 146);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Add Bug Report";
-            this.button2.UseVisualStyleBackColor = true;
+            this.add_bug_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.add_bug_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.add_bug_btn.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.add_bug_btn.Location = new System.Drawing.Point(138, 145);
+            this.add_bug_btn.Name = "add_bug_btn";
+            this.add_bug_btn.Size = new System.Drawing.Size(227, 146);
+            this.add_bug_btn.TabIndex = 1;
+            this.add_bug_btn.Text = "Add Bugs";
+            this.add_bug_btn.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // add_bug_report_btn
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button3.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(739, 145);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(227, 146);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "View Bugs";
-            this.button3.UseVisualStyleBackColor = true;
+            this.add_bug_report_btn.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.add_bug_report_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.add_bug_report_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.add_bug_report_btn.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
+            this.add_bug_report_btn.Location = new System.Drawing.Point(138, 376);
+            this.add_bug_report_btn.Name = "add_bug_report_btn";
+            this.add_bug_report_btn.Size = new System.Drawing.Size(227, 146);
+            this.add_bug_report_btn.TabIndex = 1;
+            this.add_bug_report_btn.Text = "Add Bug Report";
+            this.add_bug_report_btn.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // view_bugs_btn
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button4.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(739, 376);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(227, 146);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Add Project";
-            this.button4.UseVisualStyleBackColor = true;
+            this.view_bugs_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.view_bugs_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.view_bugs_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.view_bugs_btn.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
+            this.view_bugs_btn.Location = new System.Drawing.Point(739, 145);
+            this.view_bugs_btn.Name = "view_bugs_btn";
+            this.view_bugs_btn.Size = new System.Drawing.Size(227, 146);
+            this.view_bugs_btn.TabIndex = 1;
+            this.view_bugs_btn.Text = "View Bugs";
+            this.view_bugs_btn.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // add_project_btn
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button5.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(1331, 145);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(227, 146);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "Add User";
-            this.button5.UseVisualStyleBackColor = true;
+            this.add_project_btn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.add_project_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.add_project_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.add_project_btn.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
+            this.add_project_btn.Location = new System.Drawing.Point(739, 376);
+            this.add_project_btn.Name = "add_project_btn";
+            this.add_project_btn.Size = new System.Drawing.Size(227, 146);
+            this.add_project_btn.TabIndex = 1;
+            this.add_project_btn.Text = "Add Project";
+            this.add_project_btn.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // add_user_btn
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button6.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(1331, 376);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(227, 146);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "View Users";
-            this.button6.UseVisualStyleBackColor = true;
+            this.add_user_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.add_user_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.add_user_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.add_user_btn.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
+            this.add_user_btn.Location = new System.Drawing.Point(1331, 145);
+            this.add_user_btn.Name = "add_user_btn";
+            this.add_user_btn.Size = new System.Drawing.Size(227, 146);
+            this.add_user_btn.TabIndex = 1;
+            this.add_user_btn.Text = "Add User";
+            this.add_user_btn.UseVisualStyleBackColor = true;
+            this.add_user_btn.Click += new System.EventHandler(this.add_user_btn_Click);
             // 
-            // button7
+            // view_users_btn
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button7.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button7.Location = new System.Drawing.Point(138, 607);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(227, 146);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "View Bugs Report";
-            this.button7.UseVisualStyleBackColor = true;
+            this.view_users_btn.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.view_users_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.view_users_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.view_users_btn.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
+            this.view_users_btn.Location = new System.Drawing.Point(1331, 376);
+            this.view_users_btn.Name = "view_users_btn";
+            this.view_users_btn.Size = new System.Drawing.Size(227, 146);
+            this.view_users_btn.TabIndex = 1;
+            this.view_users_btn.Text = "View Users";
+            this.view_users_btn.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // v
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button8.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button8.Location = new System.Drawing.Point(739, 607);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(227, 146);
-            this.button8.TabIndex = 1;
-            this.button8.Text = "View Projects";
-            this.button8.UseVisualStyleBackColor = true;
+            this.v.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.v.Cursor = System.Windows.Forms.Cursors.Default;
+            this.v.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.v.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
+            this.v.Location = new System.Drawing.Point(138, 607);
+            this.v.Name = "v";
+            this.v.Size = new System.Drawing.Size(227, 146);
+            this.v.TabIndex = 1;
+            this.v.Text = "View Bugs Report";
+            this.v.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // view_project_btn
             // 
-            this.button9.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button9.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button9.Location = new System.Drawing.Point(1331, 607);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(227, 146);
-            this.button9.TabIndex = 1;
-            this.button9.Text = "Change Password";
-            this.button9.UseVisualStyleBackColor = true;
+            this.view_project_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.view_project_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.view_project_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.view_project_btn.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
+            this.view_project_btn.Location = new System.Drawing.Point(739, 607);
+            this.view_project_btn.Name = "view_project_btn";
+            this.view_project_btn.Size = new System.Drawing.Size(227, 146);
+            this.view_project_btn.TabIndex = 1;
+            this.view_project_btn.Text = "View Projects";
+            this.view_project_btn.UseVisualStyleBackColor = true;
+            // 
+            // change_password_btn
+            // 
+            this.change_password_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.change_password_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.change_password_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.change_password_btn.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
+            this.change_password_btn.Location = new System.Drawing.Point(1331, 607);
+            this.change_password_btn.Name = "change_password_btn";
+            this.change_password_btn.Size = new System.Drawing.Size(227, 146);
+            this.change_password_btn.TabIndex = 1;
+            this.change_password_btn.Text = "Change Password";
+            this.change_password_btn.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1746, 834);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.change_password_btn);
+            this.Controls.Add(this.view_project_btn);
+            this.Controls.Add(this.view_users_btn);
+            this.Controls.Add(this.add_project_btn);
+            this.Controls.Add(this.add_user_btn);
+            this.Controls.Add(this.v);
+            this.Controls.Add(this.view_bugs_btn);
+            this.Controls.Add(this.add_bug_report_btn);
+            this.Controls.Add(this.add_bug_btn);
             this.Controls.Add(this.navbar_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.navbar_panel.ResumeLayout(false);
             this.navbar_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -217,15 +225,15 @@
         private System.Windows.Forms.Panel navbar_panel;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button add_bug_btn;
+        private System.Windows.Forms.Button add_bug_report_btn;
+        private System.Windows.Forms.Button view_bugs_btn;
+        private System.Windows.Forms.Button add_project_btn;
+        private System.Windows.Forms.Button add_user_btn;
+        private System.Windows.Forms.Button view_users_btn;
+        private System.Windows.Forms.Button v;
+        private System.Windows.Forms.Button view_project_btn;
+        private System.Windows.Forms.Button change_password_btn;
     }
 }
 

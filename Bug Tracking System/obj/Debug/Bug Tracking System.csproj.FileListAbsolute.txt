@@ -9,3 +9,4 @@ E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking 
 E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug Tracking System.exe
 E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug Tracking System.pdb
 E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug_Tracking_System.Form1.resources
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug_Tracking_System.AddUsersForm.resources

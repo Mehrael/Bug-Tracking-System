@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Bug_Tracking_System
 {
-    public partial class Form1 : Form
+    public partial class AddUsersForm : Form
     {
-        public Form1()
+        public AddUsersForm()
         {
             InitializeComponent();
-        }
-
-        private void add_user_btn_Click(object sender, EventArgs e)
-        {
-            AddUsersForm frm = new AddUsersForm();
-            frm.ShowDialog();
         }
     }
 }
