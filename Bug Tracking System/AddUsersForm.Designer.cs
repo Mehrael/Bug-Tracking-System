@@ -217,7 +217,11 @@
             // 
             // gender_cmbx
             // 
+            this.gender_cmbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.gender_cmbx.FormattingEnabled = true;
+            this.gender_cmbx.Items.AddRange(new object[] {
+            "Female",
+            "Male"});
             this.gender_cmbx.Location = new System.Drawing.Point(873, 117);
             this.gender_cmbx.Name = "gender_cmbx";
             this.gender_cmbx.Size = new System.Drawing.Size(341, 34);
@@ -225,6 +229,7 @@
             // 
             // role_cmbx
             // 
+            this.role_cmbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.role_cmbx.FormattingEnabled = true;
             this.role_cmbx.Location = new System.Drawing.Point(873, 341);
             this.role_cmbx.Name = "role_cmbx";
@@ -250,6 +255,7 @@
             this.add_user_btn.TabIndex = 4;
             this.add_user_btn.Text = "Add user";
             this.add_user_btn.UseVisualStyleBackColor = true;
+            this.add_user_btn.Click += new System.EventHandler(this.add_user_btn_Click);
             // 
             // AddUsersForm
             // 
