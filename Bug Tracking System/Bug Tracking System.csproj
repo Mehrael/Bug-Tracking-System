@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddProjectsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProjectsForm.Designer.cs">
+      <DependentUpon>AddProjectsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddUsersForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewUsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewUsersForm.Designer.cs">
+      <DependentUpon>ViewUsersForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddProjectsForm.resx">
+      <DependentUpon>AddProjectsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddUsersForm.resx">
       <DependentUpon>AddUsersForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +91,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ViewUsersForm.resx">
+      <DependentUpon>ViewUsersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

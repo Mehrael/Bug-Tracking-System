@@ -22,5 +22,11 @@ namespace Bug_Tracking_System
             AddUsersForm frm = new AddUsersForm();
             frm.ShowDialog();
         }
+
+        private void view_users_btn_Click(object sender, EventArgs e)
+        {
+            ViewUsersForm frm = new ViewUsersForm();
+            frm.ShowDialog();
+        }
     }
 }

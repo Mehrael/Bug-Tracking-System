@@ -153,6 +153,7 @@
             this.view_users_btn.TabIndex = 1;
             this.view_users_btn.Text = "View Users";
             this.view_users_btn.UseVisualStyleBackColor = true;
+            this.view_users_btn.Click += new System.EventHandler(this.view_users_btn_Click);
             // 
             // v
             // 
