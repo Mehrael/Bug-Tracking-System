@@ -67,7 +67,7 @@
             this.navbar_panel.Dock = System.Windows.Forms.DockStyle.Top;
             this.navbar_panel.Location = new System.Drawing.Point(0, 0);
             this.navbar_panel.Name = "navbar_panel";
-            this.navbar_panel.Size = new System.Drawing.Size(1005, 74);
+            this.navbar_panel.Size = new System.Drawing.Size(872, 74);
             this.navbar_panel.TabIndex = 2;
             // 
             // dataGridView
@@ -78,14 +78,14 @@
             this.dataGridView.Location = new System.Drawing.Point(0, 74);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
-            this.dataGridView.Size = new System.Drawing.Size(1005, 604);
+            this.dataGridView.Size = new System.Drawing.Size(872, 624);
             this.dataGridView.TabIndex = 3;
             // 
             // save_btn
             // 
             this.save_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.save_btn.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.save_btn.Location = new System.Drawing.Point(821, 697);
+            this.save_btn.Location = new System.Drawing.Point(703, 704);
             this.save_btn.Name = "save_btn";
             this.save_btn.Size = new System.Drawing.Size(157, 38);
             this.save_btn.TabIndex = 4;
@@ -97,10 +97,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1005, 754);
+            this.ClientSize = new System.Drawing.Size(872, 754);
             this.Controls.Add(this.save_btn);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.navbar_panel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ViewUsersForm";
