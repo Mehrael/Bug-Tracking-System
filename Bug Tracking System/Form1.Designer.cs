@@ -87,6 +87,7 @@
             this.add_bug_btn.TabIndex = 1;
             this.add_bug_btn.Text = "Add Bugs";
             this.add_bug_btn.UseVisualStyleBackColor = true;
+            this.add_bug_btn.Click += new System.EventHandler(this.Add_bug_btn_Click);
             // 
             // add_bug_report_btn
             // 

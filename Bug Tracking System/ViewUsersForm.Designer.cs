@@ -106,7 +106,7 @@
             this.MaximizeBox = false;
             this.Name = "ViewUsersForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ViewUsersForm";
+            this.Text = "View Users";
             this.Load += new System.EventHandler(this.ViewUsersForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.navbar_panel.ResumeLayout(false);

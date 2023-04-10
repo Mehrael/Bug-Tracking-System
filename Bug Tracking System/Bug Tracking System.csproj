@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBugForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBugForm.Designer.cs">
+      <DependentUpon>AddBugForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddProjectsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     <Compile Include="ViewUsersForm.Designer.cs">
       <DependentUpon>ViewUsersForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddBugForm.resx">
+      <DependentUpon>AddBugForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddProjectsForm.resx">
       <DependentUpon>AddProjectsForm.cs</DependentUpon>
     </EmbeddedResource>
