@@ -139,7 +139,7 @@
             this.add_user_btn.TabIndex = 1;
             this.add_user_btn.Text = "Add User";
             this.add_user_btn.UseVisualStyleBackColor = true;
-            this.add_user_btn.Click += new System.EventHandler(this.add_user_btn_Click);
+            this.add_user_btn.Click += new System.EventHandler(this.Add_user_btn_Click);
             // 
             // view_users_btn
             // 
@@ -153,7 +153,7 @@
             this.view_users_btn.TabIndex = 1;
             this.view_users_btn.Text = "View Users";
             this.view_users_btn.UseVisualStyleBackColor = true;
-            this.view_users_btn.Click += new System.EventHandler(this.view_users_btn_Click);
+            this.view_users_btn.Click += new System.EventHandler(this.View_users_btn_Click);
             // 
             // v
             // 

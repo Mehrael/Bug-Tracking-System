@@ -17,13 +17,13 @@ namespace Bug_Tracking_System
             InitializeComponent();
         }
 
-        private void add_user_btn_Click(object sender, EventArgs e)
+        private void Add_user_btn_Click(object sender, EventArgs e)
         {
             AddUsersForm frm = new AddUsersForm();
             frm.ShowDialog();
         }
 
-        private void view_users_btn_Click(object sender, EventArgs e)
+        private void View_users_btn_Click(object sender, EventArgs e)
         {
             ViewUsersForm frm = new ViewUsersForm();
             frm.ShowDialog();

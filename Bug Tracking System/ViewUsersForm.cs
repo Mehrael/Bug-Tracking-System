@@ -19,13 +19,13 @@ namespace Bug_Tracking_System
         BindingSource bs = new BindingSource();
         public class users
         {
-            public int id { get; set; }
-            public int actualID { get; set; }
-            public string name { get; set; }
-            public string email { get; set; }
-            public string role { get; set; }
-            public int gender { get; set; }
-            public string dateOfBirth { get; set; }
+            public int Id { get; set; }
+            public int ActualID { get; set; }
+            public string Name { get; set; }
+            public string Email { get; set; }
+            public string Role { get; set; }
+            public int Gender { get; set; }
+            public string DateOfBirth { get; set; }
         }
         public ViewUsersForm()
         {
@@ -42,19 +42,24 @@ namespace Bug_Tracking_System
             {
                 lst.Add(new users()
                 {
-                    id = i + 1,
-                    actualID = Convert.ToInt32(tbl.Rows[i][0]),
-                    name = tbl.Rows[i][1].ToString(),
-                    email = tbl.Rows[i][2].ToString(),
-                    gender = Convert.ToInt32(tbl.Rows[i][5]),
-                    role = tbl.Rows[i][4].ToString(),
-                    dateOfBirth = tbl.Rows[i][6].ToString(),
+                    Id = i + 1,
+                    ActualID = Convert.ToInt32(tbl.Rows[i][0]),
+                    Name = tbl.Rows[i][1].ToString(),
+                    Email = tbl.Rows[i][2].ToString(),
+                    Gender = Convert.ToInt32(tbl.Rows[i][5]),
+                    Role = tbl.Rows[i][4].ToString(),
+                    DateOfBirth = tbl.Rows[i][6].ToString(),
                 });
 
             }
 
             bs.DataSource = lst;
             dataGridView.DataSource = bs;
+        }
+
+        private void Save_btn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

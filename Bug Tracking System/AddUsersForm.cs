@@ -19,7 +19,7 @@ namespace Bug_Tracking_System
             InitializeComponent();
         }
 
-        private void add_user_btn_Click(object sender, EventArgs e)
+        private void Add_user_btn_Click(object sender, EventArgs e)
         {
             string name = name_txt.Text;
             string email = "";
