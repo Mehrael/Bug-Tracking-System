@@ -136,6 +136,10 @@
             // 
             this.role_cmbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.role_cmbx.FormattingEnabled = true;
+            this.role_cmbx.Items.AddRange(new object[] {
+            "Admin",
+            "Manager",
+            "Developer / Tester"});
             this.role_cmbx.Location = new System.Drawing.Point(873, 341);
             this.role_cmbx.Name = "role_cmbx";
             this.role_cmbx.Size = new System.Drawing.Size(341, 34);

@@ -31,7 +31,6 @@ namespace Bug_Tracking_System
             string table = "Bug" + About_cmbx.SelectedItem.ToString();
             string stmt = "INSERT INTO " + table + " VALUES('" + About_txt.Text + "','" + Description_txt.Text + "');";
 
-            Description_txt.Text = stmt;
             db.execute_data(stmt, "Added Successfully");
         }
     }

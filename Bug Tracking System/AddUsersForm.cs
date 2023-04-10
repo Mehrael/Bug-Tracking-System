@@ -47,13 +47,13 @@ namespace Bug_Tracking_System
                 checker = false;
             }
 
-            if (password_txt.Text == confirm_password_txt.Text)
+            if (password_txt.Text != confirm_password_txt.Text)
             {
-                password = password_txt.Text;
+                MessageBox.Show("Confirm password doesn't match the password", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 checker = false;
             }
             else
-                MessageBox.Show("Confirm password doesn't match the password", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                password = password_txt.Text;
 
             string role = "";
             if (role_cmbx.SelectedItem == null)
