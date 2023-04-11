@@ -32,7 +32,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comments_txt = new System.Windows.Forms.TextBox();
             this.Description_txt = new System.Windows.Forms.TextBox();
-            this.Add_project_btn = new System.Windows.Forms.Button();
+            this.Add_report_btn = new System.Windows.Forms.Button();
             this.bug_date_dtm = new System.Windows.Forms.DateTimePicker();
             this.Priority_cmbx = new System.Windows.Forms.ComboBox();
             this.Status_cmbx = new System.Windows.Forms.ComboBox();
@@ -63,7 +63,7 @@
             this.groupBox1.Controls.Add(this.Fixed_checkBox);
             this.groupBox1.Controls.Add(this.comments_txt);
             this.groupBox1.Controls.Add(this.Description_txt);
-            this.groupBox1.Controls.Add(this.Add_project_btn);
+            this.groupBox1.Controls.Add(this.Add_report_btn);
             this.groupBox1.Controls.Add(this.bug_date_dtm);
             this.groupBox1.Controls.Add(this.Priority_cmbx);
             this.groupBox1.Controls.Add(this.Status_cmbx);
@@ -87,7 +87,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1492, 620);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Bug Report";
+            this.groupBox1.Text = "New Project";
             // 
             // comments_txt
             // 
@@ -107,18 +107,18 @@
             this.Description_txt.Size = new System.Drawing.Size(341, 138);
             this.Description_txt.TabIndex = 5;
             // 
-            // Add_project_btn
+            // Add_report_btn
             // 
-            this.Add_project_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.Add_project_btn.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Add_project_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.Add_project_btn.Location = new System.Drawing.Point(1072, 537);
-            this.Add_project_btn.Name = "Add_project_btn";
-            this.Add_project_btn.Size = new System.Drawing.Size(339, 63);
-            this.Add_project_btn.TabIndex = 4;
-            this.Add_project_btn.Text = "Add project";
-            this.Add_project_btn.UseVisualStyleBackColor = true;
-            this.Add_project_btn.Click += new System.EventHandler(this.Add_project_btn_Click);
+            this.Add_report_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.Add_report_btn.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Add_report_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.Add_report_btn.Location = new System.Drawing.Point(1072, 537);
+            this.Add_report_btn.Name = "Add_report_btn";
+            this.Add_report_btn.Size = new System.Drawing.Size(339, 63);
+            this.Add_report_btn.TabIndex = 4;
+            this.Add_report_btn.Text = "Add report";
+            this.Add_report_btn.UseVisualStyleBackColor = true;
+            this.Add_report_btn.Click += new System.EventHandler(this.Add_project_btn_Click);
             // 
             // bug_date_dtm
             // 
@@ -341,6 +341,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "AddBugReportForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Bug Report";
             this.Load += new System.EventHandler(this.AddBugReportForm_Load);
             this.groupBox1.ResumeLayout(false);
@@ -354,7 +355,7 @@
 
         #endregion
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button Add_project_btn;
+        private System.Windows.Forms.Button Add_report_btn;
         private System.Windows.Forms.DateTimePicker bug_date_dtm;
         private System.Windows.Forms.ComboBox Status_cmbx;
         private System.Windows.Forms.ComboBox Type_cmbx;

@@ -128,6 +128,7 @@
             this.add_project_btn.TabIndex = 1;
             this.add_project_btn.Text = "Add Project";
             this.add_project_btn.UseVisualStyleBackColor = true;
+            this.add_project_btn.Click += new System.EventHandler(this.Add_project_btn_Click);
             // 
             // add_user_btn
             // 
