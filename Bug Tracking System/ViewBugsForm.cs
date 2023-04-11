@@ -76,7 +76,7 @@ namespace Bug_Tracking_System
             dt = db.read_data("SELECT * FROM BugStatus", "");
 
             for (int i = 0; i < dt.Rows.Count; i++)
-                sev_list.Add(new details
+                sts_list.Add(new details
                 {
                     Id = i+1,
                     ActualID = Convert.ToInt32(dt.Rows[i][0]),
@@ -100,5 +100,6 @@ namespace Bug_Tracking_System
             dataGridView.DataSource = bs;
             dataGridView.Columns["ActualID"].Visible = false;
         }
+
     }
 }

@@ -70,6 +70,12 @@
     <Compile Include="AddUsersForm.Designer.cs">
       <DependentUpon>AddUsersForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Database.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -91,6 +97,12 @@
     <Compile Include="ViewBugsForm.Designer.cs">
       <DependentUpon>ViewBugsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewBugsReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewBugsReportForm.Designer.cs">
+      <DependentUpon>ViewBugsReportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewUsersForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +121,9 @@
     <EmbeddedResource Include="AddUsersForm.resx">
       <DependentUpon>AddUsersForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +141,9 @@
     </Compile>
     <EmbeddedResource Include="ViewBugsForm.resx">
       <DependentUpon>ViewBugsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewBugsReportForm.resx">
+      <DependentUpon>ViewBugsReportForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewUsersForm.resx">
       <DependentUpon>ViewUsersForm.cs</DependentUpon>

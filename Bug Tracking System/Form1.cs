@@ -67,5 +67,11 @@ namespace Bug_Tracking_System
              ViewBugsForm frm = new ViewBugsForm();
             frm.ShowDialog();
         }
+
+        private void Change_password_btn_Click(object sender, EventArgs e)
+        {
+            ChangePasswordForm frm = new ChangePasswordForm();
+            frm.ShowDialog();
+        }
     }
 }
