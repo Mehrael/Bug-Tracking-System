@@ -108,7 +108,7 @@
             this.groupBox1.Size = new System.Drawing.Size(955, 637);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Bug Report";
+            this.groupBox1.Text = "New Project";
             // 
             // Description_txt
             // 

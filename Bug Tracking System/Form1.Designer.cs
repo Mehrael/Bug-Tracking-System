@@ -115,6 +115,7 @@
             this.view_bugs_btn.TabIndex = 1;
             this.view_bugs_btn.Text = "View Bugs";
             this.view_bugs_btn.UseVisualStyleBackColor = true;
+            this.view_bugs_btn.Click += new System.EventHandler(this.View_bugs_btn_Click);
             // 
             // add_project_btn
             // 
