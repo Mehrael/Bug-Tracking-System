@@ -52,6 +52,12 @@
     <Compile Include="AddBugForm.Designer.cs">
       <DependentUpon>AddBugForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddBugReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBugReportForm.Designer.cs">
+      <DependentUpon>AddBugReportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddProjectsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewUsersForm.cs">
@@ -82,6 +94,9 @@
     <EmbeddedResource Include="AddBugForm.resx">
       <DependentUpon>AddBugForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddBugReportForm.resx">
+      <DependentUpon>AddBugReportForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddProjectsForm.resx">
       <DependentUpon>AddProjectsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

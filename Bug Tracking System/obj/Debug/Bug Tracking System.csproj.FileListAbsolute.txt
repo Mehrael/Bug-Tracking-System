@@ -13,3 +13,5 @@ E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking 
 E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug_Tracking_System.AddProjectsForm.resources
 E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug_Tracking_System.ViewUsersForm.resources
 E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug_Tracking_System.AddBugForm.resources
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug_Tracking_System.Login.resources
+E:\MehraelAshraf\Career\SYNC Internship\Task 1\Bug Tracking System\Bug Tracking System\obj\Debug\Bug_Tracking_System.AddBugReportForm.resources

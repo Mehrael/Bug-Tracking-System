@@ -12,6 +12,8 @@ namespace Bug_Tracking_System
 {
     public partial class Bug_Tracker : Form
     {
+        string role = Login.role;
+        string username = Login.username;
         public Bug_Tracker()
         {
             InitializeComponent();
@@ -33,6 +35,20 @@ namespace Bug_Tracking_System
         {
              AddBugForm frm = new AddBugForm();
             frm.ShowDialog();
+        }
+
+        private void Bug_Tracker_Load(object sender, EventArgs e)
+        {
+            if (role == "Manager")
+            {
+                add_user_btn.Visible = false;
+                add_bug_btn.Enabled = false;
+            }
+            else if (role == "Developer / Tester")
+            {
+                add_user_btn.Visible = false;
+                view_users_btn.Visible = false;
+            }
         }
     }
 }
