@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bug_Tracking_System.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -71,6 +72,12 @@ namespace Bug_Tracking_System
         private void Change_password_btn_Click(object sender, EventArgs e)
         {
             ChangePasswordForm frm = new ChangePasswordForm();
+            frm.ShowDialog();
+        }
+
+        private void view_project_btn_Click(object sender, EventArgs e)
+        {
+            ViewProjectsForm frm = new ViewProjectsForm();
             frm.ShowDialog();
         }
     }

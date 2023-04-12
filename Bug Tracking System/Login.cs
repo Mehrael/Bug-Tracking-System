@@ -16,6 +16,7 @@ namespace Bug_Tracking_System
         Database db = new Database();
         DataTable dt = new DataTable();
         public static string role = "";
+        public static string username = "";
         public static int userID = 0;
         public Login()
         {
@@ -28,6 +29,7 @@ namespace Bug_Tracking_System
             if(dt.Rows.Count > 0) 
             {     
                 userID = (int)dt.Rows[0][0];
+                username = dt.Rows[0][1].ToString();
                 role = dt.Rows[0][4].ToString();
                 Bug_Tracker bug_Tracker = new Bug_Tracker();
                 bug_Tracker.ShowDialog();

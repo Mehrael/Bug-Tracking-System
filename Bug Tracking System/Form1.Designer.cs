@@ -169,7 +169,7 @@
             this.v.Name = "v";
             this.v.Size = new System.Drawing.Size(227, 146);
             this.v.TabIndex = 1;
-            this.v.Text = "View Bugs Report";
+            this.v.Text = "View Bug Reports";
             this.v.UseVisualStyleBackColor = true;
             // 
             // view_project_btn
@@ -184,6 +184,7 @@
             this.view_project_btn.TabIndex = 1;
             this.view_project_btn.Text = "View Projects";
             this.view_project_btn.UseVisualStyleBackColor = true;
+            this.view_project_btn.Click += new System.EventHandler(this.view_project_btn_Click);
             // 
             // change_password_btn
             // 
