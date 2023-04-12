@@ -80,5 +80,11 @@ namespace Bug_Tracking_System
             ViewProjectsForm frm = new ViewProjectsForm();
             frm.ShowDialog();
         }
+
+        private void View_bug_report_btn_Click(object sender, EventArgs e)
+        {
+            ViewBugsReportForm frm = new ViewBugsReportForm();
+            frm.ShowDialog();
+        }
     }
 }

@@ -38,7 +38,7 @@
             this.add_project_btn = new System.Windows.Forms.Button();
             this.add_user_btn = new System.Windows.Forms.Button();
             this.view_users_btn = new System.Windows.Forms.Button();
-            this.v = new System.Windows.Forms.Button();
+            this.View_bug_report_btn = new System.Windows.Forms.Button();
             this.view_project_btn = new System.Windows.Forms.Button();
             this.change_password_btn = new System.Windows.Forms.Button();
             this.navbar_panel.SuspendLayout();
@@ -159,18 +159,19 @@
             this.view_users_btn.UseVisualStyleBackColor = true;
             this.view_users_btn.Click += new System.EventHandler(this.View_users_btn_Click);
             // 
-            // v
+            // View_bug_report_btn
             // 
-            this.v.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.v.Cursor = System.Windows.Forms.Cursors.Default;
-            this.v.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.v.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
-            this.v.Location = new System.Drawing.Point(138, 607);
-            this.v.Name = "v";
-            this.v.Size = new System.Drawing.Size(227, 146);
-            this.v.TabIndex = 1;
-            this.v.Text = "View Bug Reports";
-            this.v.UseVisualStyleBackColor = true;
+            this.View_bug_report_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.View_bug_report_btn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.View_bug_report_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.View_bug_report_btn.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold);
+            this.View_bug_report_btn.Location = new System.Drawing.Point(138, 607);
+            this.View_bug_report_btn.Name = "View_bug_report_btn";
+            this.View_bug_report_btn.Size = new System.Drawing.Size(227, 146);
+            this.View_bug_report_btn.TabIndex = 1;
+            this.View_bug_report_btn.Text = "View Bug Reports";
+            this.View_bug_report_btn.UseVisualStyleBackColor = true;
+            this.View_bug_report_btn.Click += new System.EventHandler(this.View_bug_report_btn_Click);
             // 
             // view_project_btn
             // 
@@ -209,7 +210,7 @@
             this.Controls.Add(this.view_users_btn);
             this.Controls.Add(this.add_project_btn);
             this.Controls.Add(this.add_user_btn);
-            this.Controls.Add(this.v);
+            this.Controls.Add(this.View_bug_report_btn);
             this.Controls.Add(this.view_bugs_btn);
             this.Controls.Add(this.add_bug_report_btn);
             this.Controls.Add(this.add_bug_btn);
@@ -239,7 +240,7 @@
         private System.Windows.Forms.Button add_project_btn;
         private System.Windows.Forms.Button add_user_btn;
         private System.Windows.Forms.Button view_users_btn;
-        private System.Windows.Forms.Button v;
+        private System.Windows.Forms.Button View_bug_report_btn;
         private System.Windows.Forms.Button view_project_btn;
         private System.Windows.Forms.Button change_password_btn;
     }

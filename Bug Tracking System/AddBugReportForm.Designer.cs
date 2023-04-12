@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddBugReportForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Fixed_checkBox = new System.Windows.Forms.CheckBox();
             this.comments_txt = new System.Windows.Forms.TextBox();
             this.Description_txt = new System.Windows.Forms.TextBox();
             this.Add_report_btn = new System.Windows.Forms.Button();
@@ -52,7 +53,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.navbar_panel = new System.Windows.Forms.Panel();
-            this.Fixed_checkBox = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.navbar_panel.SuspendLayout();
@@ -87,7 +87,18 @@
             this.groupBox1.Size = new System.Drawing.Size(1492, 620);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "New Project";
+            this.groupBox1.Text = "New Bug Report";
+            // 
+            // Fixed_checkBox
+            // 
+            this.Fixed_checkBox.AutoSize = true;
+            this.Fixed_checkBox.ForeColor = System.Drawing.Color.Black;
+            this.Fixed_checkBox.Location = new System.Drawing.Point(1072, 452);
+            this.Fixed_checkBox.Name = "Fixed_checkBox";
+            this.Fixed_checkBox.Size = new System.Drawing.Size(110, 30);
+            this.Fixed_checkBox.TabIndex = 8;
+            this.Fixed_checkBox.Text = "Fixed?";
+            this.Fixed_checkBox.UseVisualStyleBackColor = true;
             // 
             // comments_txt
             // 
@@ -318,17 +329,6 @@
             this.navbar_panel.Name = "navbar_panel";
             this.navbar_panel.Size = new System.Drawing.Size(1524, 74);
             this.navbar_panel.TabIndex = 4;
-            // 
-            // Fixed_checkBox
-            // 
-            this.Fixed_checkBox.AutoSize = true;
-            this.Fixed_checkBox.ForeColor = System.Drawing.Color.Black;
-            this.Fixed_checkBox.Location = new System.Drawing.Point(1072, 452);
-            this.Fixed_checkBox.Name = "Fixed_checkBox";
-            this.Fixed_checkBox.Size = new System.Drawing.Size(110, 30);
-            this.Fixed_checkBox.TabIndex = 8;
-            this.Fixed_checkBox.Text = "Fixed?";
-            this.Fixed_checkBox.UseVisualStyleBackColor = true;
             // 
             // AddBugReportForm
             // 

@@ -32,8 +32,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.navbar_panel = new System.Windows.Forms.Panel();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.navbar_panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -64,14 +66,29 @@
             this.navbar_panel.Dock = System.Windows.Forms.DockStyle.Top;
             this.navbar_panel.Location = new System.Drawing.Point(0, 0);
             this.navbar_panel.Name = "navbar_panel";
-            this.navbar_panel.Size = new System.Drawing.Size(1743, 74);
+            this.navbar_panel.Size = new System.Drawing.Size(1611, 74);
             this.navbar_panel.TabIndex = 5;
+            // 
+            // dataGridView
+            // 
+            this.dataGridView.AllowUserToAddRows = false;
+            this.dataGridView.AllowUserToDeleteRows = false;
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView.Location = new System.Drawing.Point(0, 74);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.ReadOnly = true;
+            this.dataGridView.RowHeadersWidth = 51;
+            this.dataGridView.RowTemplate.Height = 24;
+            this.dataGridView.Size = new System.Drawing.Size(1611, 665);
+            this.dataGridView.TabIndex = 6;
             // 
             // ViewBugsReportForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1743, 739);
+            this.ClientSize = new System.Drawing.Size(1611, 739);
+            this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.navbar_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -79,9 +96,11 @@
             this.Name = "ViewBugsReportForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bug Reports";
+            this.Load += new System.EventHandler(this.ViewBugsReportForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.navbar_panel.ResumeLayout(false);
             this.navbar_panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -91,5 +110,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel navbar_panel;
+        private System.Windows.Forms.DataGridView dataGridView;
     }
 }
