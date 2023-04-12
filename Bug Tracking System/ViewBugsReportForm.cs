@@ -22,11 +22,11 @@ namespace Bug_Tracking_System
 
         private void ViewBugsReportForm_Load(object sender, EventArgs e)
         {
-            string stmt = "";
+            string stmt = "SELECT Bugs.*, Users.Name FROM Bugs INNER JOIN Users ON Bugs.UserID = Users.ID";
             if (Login.role == "Manager")
-                stmt = "SELECT Bugs.*, Users.Name FROM Bugs INNER JOIN Users ON Bugs.UserID = Users.ID WHERE Users.ID = " + Login.userID;
+                stmt += " WHERE Users.ID = " + Login.userID;
             else
-                stmt = "SELECT Bugs.*, Users.Name FROM Bugs INNER JOIN Users ON Bugs.UserID = Users.ID";
+
             dt.Clear();
             dt = db.read_data(stmt, "");
 

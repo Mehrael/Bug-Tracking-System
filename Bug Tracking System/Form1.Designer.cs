@@ -41,6 +41,7 @@
             this.View_bug_report_btn = new System.Windows.Forms.Button();
             this.view_project_btn = new System.Windows.Forms.Button();
             this.change_password_btn = new System.Windows.Forms.Button();
+            this.Logout_btn = new System.Windows.Forms.Button();
             this.navbar_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -48,6 +49,7 @@
             // navbar_panel
             // 
             this.navbar_panel.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.navbar_panel.Controls.Add(this.Logout_btn);
             this.navbar_panel.Controls.Add(this.label1);
             this.navbar_panel.Controls.Add(this.pictureBox1);
             this.navbar_panel.Dock = System.Windows.Forms.DockStyle.Top;
@@ -201,6 +203,19 @@
             this.change_password_btn.UseVisualStyleBackColor = true;
             this.change_password_btn.Click += new System.EventHandler(this.Change_password_btn_Click);
             // 
+            // Logout_btn
+            // 
+            this.Logout_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.Logout_btn.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Logout_btn.Location = new System.Drawing.Point(1560, 16);
+            this.Logout_btn.Name = "Logout_btn";
+            this.Logout_btn.Size = new System.Drawing.Size(157, 38);
+            this.Logout_btn.TabIndex = 5;
+            this.Logout_btn.Text = "Logout";
+            this.Logout_btn.UseVisualStyleBackColor = true;
+            this.Logout_btn.Click += new System.EventHandler(this.Logout_btn_Click);
+            // 
             // Bug_Tracker
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -243,6 +258,7 @@
         private System.Windows.Forms.Button View_bug_report_btn;
         private System.Windows.Forms.Button view_project_btn;
         private System.Windows.Forms.Button change_password_btn;
+        private System.Windows.Forms.Button Logout_btn;
     }
 }
 

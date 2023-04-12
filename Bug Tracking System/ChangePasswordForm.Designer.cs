@@ -103,7 +103,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Location = new System.Drawing.Point(72, 108);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(234, 33);
+            this.label6.Size = new System.Drawing.Size(187, 26);
             this.label6.TabIndex = 8;
             this.label6.Text = "Old Password:";
             // 
@@ -114,7 +114,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(72, 206);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(244, 33);
+            this.label2.Size = new System.Drawing.Size(195, 26);
             this.label2.TabIndex = 8;
             this.label2.Text = "New Password:";
             // 
@@ -134,7 +134,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(72, 307);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(305, 33);
+            this.label3.Size = new System.Drawing.Size(244, 26);
             this.label3.TabIndex = 8;
             this.label3.Text = "Confirm Password:";
             // 
@@ -164,6 +164,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ChangePasswordForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change Password";
             this.Load += new System.EventHandler(this.ChangePasswordForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

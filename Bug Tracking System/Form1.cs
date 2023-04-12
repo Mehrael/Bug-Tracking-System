@@ -86,5 +86,12 @@ namespace Bug_Tracking_System
             ViewBugsReportForm frm = new ViewBugsReportForm();
             frm.ShowDialog();
         }
+
+        private void Logout_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login frm = new Login();
+            frm.ShowDialog();
+        }
     }
 }
