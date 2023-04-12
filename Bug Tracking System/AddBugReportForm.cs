@@ -132,6 +132,14 @@ namespace Bug_Tracking_System
             for(int i =0;i<dt.Rows.Count;i++)
                 Status_cmbx.Items.Add(dt.Rows[i][1]);
 
+            /////////////////////////////////////////////////////////      
+            dt.Clear();
+            dt = db.read_data("SELECT * FROM Projects", "");
+
+            Project_cmbx.Items.Clear();
+            for(int i =0;i<dt.Rows.Count;i++)
+                Project_cmbx.Items.Add(dt.Rows[i][1]);
+
             /////////////////////////////////////////////////////////
         }
     }
